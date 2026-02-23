@@ -4,6 +4,10 @@ Configuration settings for the Digital FTE Automation system.
 
 import os
 from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Path to your Obsidian vault
 
@@ -68,3 +72,70 @@ SILVER_DONE_FOLDER = '05_Done'
 
 # Supported file extensions for Silver Tier
 SUPPORTED_EXTENSIONS = ['.md', '.txt']
+
+# ===========================================
+# GOLD TIER - Business Operations Configuration
+# ===========================================
+
+# -------------------------------------------
+# Xero Accounting Integration
+# -------------------------------------------
+XERO_CLIENT_ID = os.getenv('XERO_CLIENT_ID', '')
+XERO_CLIENT_SECRET = os.getenv('XERO_CLIENT_SECRET', '')
+XERO_TENANT_ID = os.getenv('XERO_TENANT_ID', '')
+XERO_REDIRECT_URI = os.getenv('XERO_REDIRECT_URI', 'http://localhost:8080/callback')
+
+XERO_CREDENTIALS = {
+    'client_id': XERO_CLIENT_ID,
+    'client_secret': XERO_CLIENT_SECRET,
+    'tenant_id': XERO_TENANT_ID,
+    'redirect_uri': XERO_REDIRECT_URI
+}
+
+# -------------------------------------------
+# Twitter/X Integration (Not Used - kept for reference)
+# -------------------------------------------
+TWITTER_API_KEY = os.getenv('TWITTER_API_KEY', '')
+TWITTER_API_SECRET = os.getenv('TWITTER_API_SECRET', '')
+TWITTER_ACCESS_TOKEN = os.getenv('TWITTER_ACCESS_TOKEN', '')
+TWITTER_ACCESS_TOKEN_SECRET = os.getenv('TWITTER_ACCESS_TOKEN_SECRET', '')
+TWITTER_BEARER_TOKEN = os.getenv('TWITTER_BEARER_TOKEN', '')
+
+TWITTER_CREDENTIALS = {
+    'api_key': TWITTER_API_KEY,
+    'api_secret': TWITTER_API_SECRET,
+    'access_token': TWITTER_ACCESS_TOKEN,
+    'access_token_secret': TWITTER_ACCESS_TOKEN_SECRET,
+    'bearer_token': TWITTER_BEARER_TOKEN
+}
+
+# -------------------------------------------
+# Obsidian Audit & Briefing Paths
+# -------------------------------------------
+AUDIT_LOG_PATH = VAULT_PATH / '00_Audit_Logs'
+CEO_BRIEFINGS_PATH = VAULT_PATH / '00_CEO_Briefings'
+ERROR_RECOVERY_LOG_PATH = VAULT_PATH / 'logs' / 'error_recovery.log'
+
+# -------------------------------------------
+# Gold Tier Additional Folders
+# -------------------------------------------
+RESEARCHING_FOLDER = '06_Researching'
+REVIEWING_FOLDER = '07_Reviewing'
+RESEARCHING_PATH = VAULT_PATH / RESEARCHING_FOLDER
+REVIEWING_PATH = VAULT_PATH / REVIEWING_FOLDER
+
+# Ensure Gold Tier folders exist
+GOLD_TIER_FOLDERS = [
+    AUDIT_LOG_PATH,
+    CEO_BRIEFINGS_PATH,
+    RESEARCHING_PATH,
+    REVIEWING_PATH
+]
+
+# -------------------------------------------
+# Error Recovery Settings
+# -------------------------------------------
+MAX_RETRY_ATTEMPTS = 3
+SIMPLIFIED_POST_ENABLED = True
+ERROR_LOGGING_ENABLED = True
+AUDIT_LOGGING_ENABLED = True

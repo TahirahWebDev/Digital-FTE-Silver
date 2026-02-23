@@ -1,0 +1,13 @@
+{
+  "watcher_running": true,
+  "watcher_pid": 15168,
+  "last_health_check": "2026-02-23T18:25:37.782362",
+  "last_restart": null,
+  "restart_count": 0,
+  "total_uptime_hours": 0.10873255666666667,
+  "start_time": "2026-02-23T18:19:05.406702",
+  "errors": [],
+  "files_processed": 0,
+  "last_file_processed": null,
+  "status": "running"
+}

@@ -1,7 +1,7 @@
 """
 Agent logic for the Technical Branding Assistant.
 Handles the 'thinking' process when a file is in 02_Needs_Action.
-Reads the topic, calls the search tool, and drafts a LinkedIn post and Simplified Study Guide.
+Reads the topic, calls the search tool, and drafts a social media post and Simplified Study Guide.
 """
 
 import os
@@ -42,18 +42,18 @@ def extract_topic_from_file(file_path: str) -> str:
         return content
 
 
-def generate_linkedin_post(topic: str, search_results: str) -> str:
+def generate_social_post(topic: str, search_results: str) -> str:
     """
-    Generate a professional LinkedIn post based on the topic and search results.
+    Generate a social media post based on the topic and search results.
 
     Args:
         topic: The topic to write about
         search_results: Search results to base the post on
 
     Returns:
-        Generated LinkedIn post content
+        Generated social media post content
     """
-    linkedin_post = f"""# {topic}: Key Insights & Trends
+    social_post = f"""# {topic}: Key Insights & Trends
 
 Based on my recent research into **{topic}**, here are the key insights and trends that professionals should be aware of:
 
@@ -71,11 +71,11 @@ As technology continues to evolve rapidly, staying updated with the latest devel
 ## Looking Forward
 The future of {topic} looks promising with ongoing innovations and developments. Professionals should consider how these trends might impact their work and career trajectory.
 
-What are your thoughts on {topic}? Have you experienced similar trends in your work? I'd love to hear your perspective in the comments!
+What are your thoughts on {topic}? Have you experienced similar trends in your work?
 
 #TechInsights #{re.sub(r'\W+', '', topic)} #ProfessionalDevelopment #Innovation #Technology
 """
-    return linkedin_post
+    return social_post
 
 
 def generate_study_guide(topic: str, search_results: str) -> str:
@@ -153,20 +153,20 @@ def process_needs_action_file(file_path: str) -> bool:
         search_results = simple_search(topic)
         print("Search completed")
 
-        # Generate LinkedIn post
-        print("Generating LinkedIn post...")
-        linkedin_post = generate_linkedin_post(topic, search_results)
+        # Generate social media post
+        print("Generating social media post...")
+        social_post = generate_social_post(topic, search_results)
 
         # Generate Simplified Study Guide
         print("Generating study guide...")
         study_guide = generate_study_guide(topic, search_results)
 
-        # Create combined content with both the LinkedIn post and study guide
+        # Create combined content with both the social post and study guide
         combined_content = f"""# Research Summary: {topic}
 
-## LinkedIn Post Draft
+## Social Media Post Draft
 
-{linkedin_post}
+{social_post}
 
 ---
 

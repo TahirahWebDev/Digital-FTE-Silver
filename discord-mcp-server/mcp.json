@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "discord": {
+      "command": "node",
+      "args": [
+        "F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\discord-mcp-server\\index.js"
+      ],
+      "cwd": "F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\discord-mcp-server",
+      "env": {}
+    }
+  }
+}
