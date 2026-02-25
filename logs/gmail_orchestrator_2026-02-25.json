@@ -1,0 +1,249 @@
+[
+  {
+    "timestamp": "2026-02-25T15:31:03.717236",
+    "action_type": "ai_assistant_call",
+    "target": "F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\Needs_Action\\EMAIL_19c8281eb299fc61_Need_Help_20260225_153102.md",
+    "parameters": {
+      "subject": "Need Help?",
+      "from": "Xero <noreply@send.xero.com>",
+      "prompt": "\nProcess this email using the gmail_operator skill:\n\nFile: F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\Needs_Action\\EMAIL_19c8281eb299fc61_Need_Help_20260225_153102.md\nFrom: Xero <noreply@send.xero.com>\nSubject: Need Help?\n\nInstructions:\n1. Classify the email intent\n2. Create a plan in /Plans/\n3. Draft a response\n4. Create an approval file in /03_Pending_Approval/\n\nRead the full email content from the file and take appropriate action.\n"
+    },
+    "result": "initiated",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T15:31:03.718875",
+    "action_type": "ai_assistant_call",
+    "target": "F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\Needs_Action\\EMAIL_19c8459353cb959a_Please_Accept_Your_OFFER_20260225_153102.md",
+    "parameters": {
+      "subject": "Please Accept Your OFFER",
+      "from": "Temu <temu@commerce.temuemail.com>",
+      "prompt": "\nProcess this email using the gmail_operator skill:\n\nFile: F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\Needs_Action\\EMAIL_19c8459353cb959a_Please_Accept_Your_OFFER_20260225_153102.md\nFrom: Temu <temu@commerce.temuemail.com>\nSubject: Please Accept Your OFFER\n\nInstructions:\n1. Classify the email intent\n2. Create a plan in /Plans/\n3. Draft a response\n4. Create an approval file in /03_Pending_Approval/\n\nRead the full email content from the file and take appropriate action.\n"
+    },
+    "result": "initiated",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T15:31:03.739639",
+    "action_type": "ai_assistant_call",
+    "target": "F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\Needs_Action\\EMAIL_19c84c6d85a5315e_Your_Loyalty_has_returned_as_a_Jackpot_Treat_20260225_153102.md",
+    "parameters": {
+      "subject": "Your Loyalty has returned as a Jackpot Treat!",
+      "from": "Temu <temu@commerce.temuemail.com>",
+      "prompt": "\nProcess this email using the gmail_operator skill:\n\nFile: F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\Needs_Action\\EMAIL_19c84c6d85a5315e_Your_Loyalty_has_returned_as_a_Jackpot_Treat_20260225_153102.md\nFrom: Temu <temu@commerce.temuemail.com>\nSubject: Your Loyalty has returned as a Jackpot Treat!\n\nInstructions:\n1. Classify the email intent\n2. Create a plan in /Plans/\n3. Draft a response\n4. Create an approval file in /03_Pending_Approval/\n\nRead the full email content from the file and take appropriate action.\n"
+    },
+    "result": "initiated",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T15:31:03.760729",
+    "action_type": "ai_assistant_call",
+    "target": "F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\Needs_Action\\EMAIL_19c881559ed5455b_Add_more_ways_for_your_customers_to_pay_your_invoi_20260225_153102.md",
+    "parameters": {
+      "subject": "Add more ways for your customers to pay your invoices",
+      "from": "Xero <noreply@send.xero.com>",
+      "prompt": "\nProcess this email using the gmail_operator skill:\n\nFile: F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\Needs_Action\\EMAIL_19c881559ed5455b_Add_more_ways_for_your_customers_to_pay_your_invoi_20260225_153102.md\nFrom: Xero <noreply@send.xero.com>\nSubject: Add more ways for your customers to pay your invoices\n\nInstructions:\n1. Classify the email intent\n2. Create a plan in /Plans/\n3. Draft a response\n4. Create an approval file in /03_Pending_Approval/\n\nRead the full email content from the file and take appropriate action.\n"
+    },
+    "result": "initiated",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T15:31:03.786517",
+    "action_type": "ai_assistant_call",
+    "target": "F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\Needs_Action\\EMAIL_19c89ba4ffcffbe3_Youve_succeeded_20260225_153102.md",
+    "parameters": {
+      "subject": "You've succeeded!",
+      "from": "Temu <temu@commerce.temuemail.com>",
+      "prompt": "\nProcess this email using the gmail_operator skill:\n\nFile: F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\Needs_Action\\EMAIL_19c89ba4ffcffbe3_Youve_succeeded_20260225_153102.md\nFrom: Temu <temu@commerce.temuemail.com>\nSubject: You've succeeded!\n\nInstructions:\n1. Classify the email intent\n2. Create a plan in /Plans/\n3. Draft a response\n4. Create an approval file in /03_Pending_Approval/\n\nRead the full email content from the file and take appropriate action.\n"
+    },
+    "result": "initiated",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T15:31:03.808466",
+    "action_type": "ai_assistant_call",
+    "target": "F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\Needs_Action\\EMAIL_19c8a5bdde58715f_Congratulations_You_are_chosen_20260225_153102.md",
+    "parameters": {
+      "subject": "Congratulations! You are chosen\ud83d\udc90\ud83c\udf88",
+      "from": "Temu <temu@commerce.temuemail.com>",
+      "prompt": "\nProcess this email using the gmail_operator skill:\n\nFile: F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\Needs_Action\\EMAIL_19c8a5bdde58715f_Congratulations_You_are_chosen_20260225_153102.md\nFrom: Temu <temu@commerce.temuemail.com>\nSubject: Congratulations! You are chosen\ud83d\udc90\ud83c\udf88\n\nInstructions:\n1. Classify the email intent\n2. Create a plan in /Plans/\n3. Draft a response\n4. Create an approval file in /03_Pending_Approval/\n\nRead the full email content from the file and take appropriate action.\n"
+    },
+    "result": "initiated",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T15:31:03.828896",
+    "action_type": "ai_assistant_call",
+    "target": "F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\Needs_Action\\EMAIL_19c8d75596756aaa_Know_whats_coming_in_and_out_of_your_business_20260225_153102.md",
+    "parameters": {
+      "subject": "Know what\u2019s coming in and out of your business",
+      "from": "Xero <noreply@send.xero.com>",
+      "prompt": "\nProcess this email using the gmail_operator skill:\n\nFile: F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\Needs_Action\\EMAIL_19c8d75596756aaa_Know_whats_coming_in_and_out_of_your_business_20260225_153102.md\nFrom: Xero <noreply@send.xero.com>\nSubject: Know what\u2019s coming in and out of your business\n\nInstructions:\n1. Classify the email intent\n2. Create a plan in /Plans/\n3. Draft a response\n4. Create an approval file in /03_Pending_Approval/\n\nRead the full email content from the file and take appropriate action.\n"
+    },
+    "result": "initiated",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T15:31:03.876098",
+    "action_type": "ai_assistant_call",
+    "target": "F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\Needs_Action\\EMAIL_19c92d38756553c2_Connect_your_go-to_software_and_boost_productivity_20260225_153102.md",
+    "parameters": {
+      "subject": "Connect your go-to software and boost productivity",
+      "from": "Xero <noreply@send.xero.com>",
+      "prompt": "\nProcess this email using the gmail_operator skill:\n\nFile: F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\Needs_Action\\EMAIL_19c92d38756553c2_Connect_your_go-to_software_and_boost_productivity_20260225_153102.md\nFrom: Xero <noreply@send.xero.com>\nSubject: Connect your go-to software and boost productivity\n\nInstructions:\n1. Classify the email intent\n2. Create a plan in /Plans/\n3. Draft a response\n4. Create an approval file in /03_Pending_Approval/\n\nRead the full email content from the file and take appropriate action.\n"
+    },
+    "result": "initiated",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T15:31:03.908749",
+    "action_type": "ai_assistant_call",
+    "target": "F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\Needs_Action\\EMAIL_19c93428f61d4780_2-Step_Verification_turned_on_20260225_153102.md",
+    "parameters": {
+      "subject": "2-Step Verification turned on",
+      "from": "Google <no-reply@accounts.google.com>",
+      "prompt": "\nProcess this email using the gmail_operator skill:\n\nFile: F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\Needs_Action\\EMAIL_19c93428f61d4780_2-Step_Verification_turned_on_20260225_153102.md\nFrom: Google <no-reply@accounts.google.com>\nSubject: 2-Step Verification turned on\n\nInstructions:\n1. Classify the email intent\n2. Create a plan in /Plans/\n3. Draft a response\n4. Create an approval file in /03_Pending_Approval/\n\nRead the full email content from the file and take appropriate action.\n"
+    },
+    "result": "initiated",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T15:31:03.936783",
+    "action_type": "ai_assistant_call",
+    "target": "F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\Needs_Action\\EMAIL_19c9448bbd8c0db8_test_20260225_153102.md",
+    "parameters": {
+      "subject": "test",
+      "from": "Tahirah <blink.blackpink.pre09@gmail.com>",
+      "prompt": "\nProcess this email using the gmail_operator skill:\n\nFile: F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\Needs_Action\\EMAIL_19c9448bbd8c0db8_test_20260225_153102.md\nFrom: Tahirah <blink.blackpink.pre09@gmail.com>\nSubject: test\n\nInstructions:\n1. Classify the email intent\n2. Create a plan in /Plans/\n3. Draft a response\n4. Create an approval file in /03_Pending_Approval/\n\nRead the full email content from the file and take appropriate action.\n"
+    },
+    "result": "initiated",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T16:01:43.038055",
+    "action_type": "ai_assistant_call",
+    "target": "F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\02_Need_Action\\EMAIL_19c9475143c63063_test2_20260225_160137.md",
+    "parameters": {
+      "subject": "test2",
+      "from": "Tahirah <blink.blackpink.pre09@gmail.com>",
+      "prompt": "\nProcess this email using the gmail_operator skill:\n\nFile: F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\02_Need_Action\\EMAIL_19c9475143c63063_test2_20260225_160137.md\nFrom: Tahirah <blink.blackpink.pre09@gmail.com>\nSubject: test2\n\nInstructions:\n1. Classify the email intent\n2. Create a plan in /Plans/\n3. Draft a response\n4. Create an approval file in /03_Pending_Approval/\n\nRead the full email content from the file and take appropriate action.\n"
+    },
+    "result": "initiated",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T16:03:43.124180",
+    "action_type": "ai_assistant_call",
+    "target": "F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\02_Need_Action\\EMAIL_19c94779196f1b77_test3_20260225_160338.md",
+    "parameters": {
+      "subject": "test3",
+      "from": "Tahirah Roohi <tahirahroohi@gmail.com>",
+      "prompt": "\nProcess this email using the gmail_operator skill:\n\nFile: F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\02_Need_Action\\EMAIL_19c94779196f1b77_test3_20260225_160338.md\nFrom: Tahirah Roohi <tahirahroohi@gmail.com>\nSubject: test3\n\nInstructions:\n1. Classify the email intent\n2. Create a plan in /Plans/\n3. Draft a response\n4. Create an approval file in /03_Pending_Approval/\n\nRead the full email content from the file and take appropriate action.\n"
+    },
+    "result": "initiated",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T16:08:13.213358",
+    "action_type": "mcp_send_email",
+    "target": "F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\04_Approved\\APPROVAL_EMAIL_19c9475143c63063.md",
+    "parameters": {},
+    "result": "error: [WinError 267] The directory name is invalid",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T16:14:21.830411",
+    "action_type": "ai_assistant_call",
+    "target": "F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\02_Need_Action\\EMAIL_19c9475143c63063_test2_20260225_160137.md",
+    "parameters": {
+      "subject": "test2",
+      "from": "Tahirah <blink.blackpink.pre09@gmail.com>",
+      "prompt": "\nProcess this email using the gmail_operator skill:\n\nFile: F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\02_Need_Action\\EMAIL_19c9475143c63063_test2_20260225_160137.md\nFrom: Tahirah <blink.blackpink.pre09@gmail.com>\nSubject: test2\n\nInstructions:\n1. Classify the email intent\n2. Create a plan in /Plans/\n3. Draft a response\n4. Create an approval file in /03_Pending_Approval/\n\nRead the full email content from the file and take appropriate action.\n"
+    },
+    "result": "initiated",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T16:14:21.903892",
+    "action_type": "ai_assistant_call",
+    "target": "F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\02_Need_Action\\EMAIL_19c94779196f1b77_test3_20260225_160338.md",
+    "parameters": {
+      "subject": "test3",
+      "from": "Tahirah Roohi <tahirahroohi@gmail.com>",
+      "prompt": "\nProcess this email using the gmail_operator skill:\n\nFile: F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\02_Need_Action\\EMAIL_19c94779196f1b77_test3_20260225_160338.md\nFrom: Tahirah Roohi <tahirahroohi@gmail.com>\nSubject: test3\n\nInstructions:\n1. Classify the email intent\n2. Create a plan in /Plans/\n3. Draft a response\n4. Create an approval file in /03_Pending_Approval/\n\nRead the full email content from the file and take appropriate action.\n"
+    },
+    "result": "initiated",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T16:15:30.686265",
+    "action_type": "mcp_send_email",
+    "target": "blink.blackpink.pre09@gmail.com",
+    "parameters": {
+      "to": "blink.blackpink.pre09@gmail.com",
+      "subject": "Re: test3"
+    },
+    "result": "success",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T16:21:51.773368",
+    "action_type": "ai_assistant_call",
+    "target": "F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\02_Need_Action\\EMAIL_19c9475143c63063_test2_20260225_160137.md",
+    "parameters": {
+      "subject": "test2",
+      "from": "Tahirah <blink.blackpink.pre09@gmail.com>",
+      "prompt": "\nProcess this email using the gmail_operator skill:\n\nFile: F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\02_Need_Action\\EMAIL_19c9475143c63063_test2_20260225_160137.md\nFrom: Tahirah <blink.blackpink.pre09@gmail.com>\nSubject: test2\n\nInstructions:\n1. Classify the email intent\n2. Create a plan in /Plans/\n3. Draft a response\n4. Create an approval file in /03_Pending_Approval/\n\nRead the full email content from the file and take appropriate action.\n"
+    },
+    "result": "initiated",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T16:21:51.797905",
+    "action_type": "ai_assistant_call",
+    "target": "F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\02_Need_Action\\EMAIL_19c94779196f1b77_test3_20260225_160338.md",
+    "parameters": {
+      "subject": "test3",
+      "from": "Tahirah Roohi <tahirahroohi@gmail.com>",
+      "prompt": "\nProcess this email using the gmail_operator skill:\n\nFile: F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\02_Need_Action\\EMAIL_19c94779196f1b77_test3_20260225_160338.md\nFrom: Tahirah Roohi <tahirahroohi@gmail.com>\nSubject: test3\n\nInstructions:\n1. Classify the email intent\n2. Create a plan in /Plans/\n3. Draft a response\n4. Create an approval file in /03_Pending_Approval/\n\nRead the full email content from the file and take appropriate action.\n"
+    },
+    "result": "initiated",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T16:25:30.411014",
+    "action_type": "ai_assistant_call",
+    "target": "F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\02_Need_Action\\EMAIL_19c9475143c63063_test2_20260225_160137.md",
+    "parameters": {
+      "subject": "test2",
+      "from": "Tahirah <blink.blackpink.pre09@gmail.com>",
+      "prompt": "\nProcess this email using the gmail_operator skill:\n\nFile: F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\02_Need_Action\\EMAIL_19c9475143c63063_test2_20260225_160137.md\nFrom: Tahirah <blink.blackpink.pre09@gmail.com>\nSubject: test2\n\nInstructions:\n1. Classify the email intent\n2. Create a plan in /Plans/\n3. Draft a response\n4. Create an approval file in /03_Pending_Approval/\n\nRead the full email content from the file and take appropriate action.\n"
+    },
+    "result": "initiated",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T16:25:30.441498",
+    "action_type": "ai_assistant_call",
+    "target": "F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\02_Need_Action\\EMAIL_19c94779196f1b77_test3_20260225_160338.md",
+    "parameters": {
+      "subject": "test3",
+      "from": "Tahirah Roohi <tahirahroohi@gmail.com>",
+      "prompt": "\nProcess this email using the gmail_operator skill:\n\nFile: F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\02_Need_Action\\EMAIL_19c94779196f1b77_test3_20260225_160338.md\nFrom: Tahirah Roohi <tahirahroohi@gmail.com>\nSubject: test3\n\nInstructions:\n1. Classify the email intent\n2. Create a plan in /Plans/\n3. Draft a response\n4. Create an approval file in /03_Pending_Approval/\n\nRead the full email content from the file and take appropriate action.\n"
+    },
+    "result": "initiated",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T19:49:12.646111",
+    "action_type": "ai_assistant_call",
+    "target": "F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\02_Need_Action\\EMAIL_19c9475143c63063_test2_20260225_160137.md",
+    "parameters": {
+      "subject": "test2",
+      "from": "Tahirah <blink.blackpink.pre09@gmail.com>",
+      "prompt": "\nProcess this email using the gmail_operator skill:\n\nFile: F:\\Tahirah\\Hackathon-0\\AI_Employee_Vault\\02_Need_Action\\EMAIL_19c9475143c63063_test2_20260225_160137.md\nFrom: Tahirah <blink.blackpink.pre09@gmail.com>\nSubject: test2\n\nInstructions:\n1. Classify the email intent\n2. Create a plan in /Plans/\n3. Draft a response\n4. Create an approval file in /03_Pending_Approval/\n\nRead the full email content from the file and take appropriate action.\n"
+    },
+    "result": "initiated",
+    "dry_run": false
+  }
+]

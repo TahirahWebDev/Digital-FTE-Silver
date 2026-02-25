@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2026-02-25T11:15:30.618Z",
+    "action_type": "send_email",
+    "target": "blink.blackpink.pre09@gmail.com",
+    "parameters": {
+      "to": "blink.blackpink.pre09@gmail.com",
+      "subject": "Re: test3",
+      "cc": null,
+      "bcc": null
+    },
+    "approval_status": "approved",
+    "result": {
+      "success": true,
+      "messageId": "19c9482dbea0f181"
+    },
+    "dry_run": false
+  }
+]

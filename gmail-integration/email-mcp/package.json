@@ -1,0 +1,19 @@
+{
+  "name": "email-mcp-server",
+  "version": "1.0.0",
+  "description": "Gmail MCP Server for AI Employee - Send, draft, and search emails",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "dotenv": "^16.4.5",
+    "googleapis": "^144.0.0",
+    "google-auth-library": "^9.11.0"
+  },
+  "keywords": ["mcp", "gmail", "email"],
+  "license": "MIT"
+}

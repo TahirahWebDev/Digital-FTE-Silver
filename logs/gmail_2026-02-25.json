@@ -1,0 +1,110 @@
+[
+  {
+    "timestamp": "2026-02-25T15:31:02.152973",
+    "action_type": "email_received",
+    "email_id": "19c9448bbd8c0db8",
+    "subject": "test",
+    "from": "Tahirah <blink.blackpink.pre09@gmail.com>",
+    "result": "file_created",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T15:31:02.154670",
+    "action_type": "email_received",
+    "email_id": "19c93428f61d4780",
+    "subject": "2-Step Verification turned on",
+    "from": "Google <no-reply@accounts.google.com>",
+    "result": "file_created",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T15:31:02.174771",
+    "action_type": "email_received",
+    "email_id": "19c92d38756553c2",
+    "subject": "Connect your go-to software and boost productivity",
+    "from": "Xero <noreply@send.xero.com>",
+    "result": "file_created",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T15:31:02.194856",
+    "action_type": "email_received",
+    "email_id": "19c8d75596756aaa",
+    "subject": "Know what\u2019s coming in and out of your business",
+    "from": "Xero <noreply@send.xero.com>",
+    "result": "file_created",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T15:31:02.216470",
+    "action_type": "email_received",
+    "email_id": "19c8a5bdde58715f",
+    "subject": "Congratulations! You are chosen\ud83d\udc90\ud83c\udf88",
+    "from": "Temu <temu@commerce.temuemail.com>",
+    "result": "file_created",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T15:31:02.239085",
+    "action_type": "email_received",
+    "email_id": "19c89ba4ffcffbe3",
+    "subject": "You've succeeded!",
+    "from": "Temu <temu@commerce.temuemail.com>",
+    "result": "file_created",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T15:31:02.263262",
+    "action_type": "email_received",
+    "email_id": "19c881559ed5455b",
+    "subject": "Add more ways for your customers to pay your invoices",
+    "from": "Xero <noreply@send.xero.com>",
+    "result": "file_created",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T15:31:02.286566",
+    "action_type": "email_received",
+    "email_id": "19c84c6d85a5315e",
+    "subject": "Your Loyalty has returned as a Jackpot Treat!",
+    "from": "Temu <temu@commerce.temuemail.com>",
+    "result": "file_created",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T15:31:02.309453",
+    "action_type": "email_received",
+    "email_id": "19c8459353cb959a",
+    "subject": "Please Accept Your OFFER",
+    "from": "Temu <temu@commerce.temuemail.com>",
+    "result": "file_created",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T15:31:02.333010",
+    "action_type": "email_received",
+    "email_id": "19c8281eb299fc61",
+    "subject": "Need Help?",
+    "from": "Xero <noreply@send.xero.com>",
+    "result": "file_created",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T16:01:37.462976",
+    "action_type": "email_received",
+    "email_id": "19c9475143c63063",
+    "subject": "test2",
+    "from": "Tahirah <blink.blackpink.pre09@gmail.com>",
+    "result": "file_created",
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-25T16:03:38.869765",
+    "action_type": "email_received",
+    "email_id": "19c94779196f1b77",
+    "subject": "test3",
+    "from": "Tahirah Roohi <tahirahroohi@gmail.com>",
+    "result": "file_created",
+    "dry_run": false
+  }
+]

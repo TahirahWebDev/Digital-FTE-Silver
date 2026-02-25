@@ -1,0 +1,39 @@
+# Gmail Integration .gitignore
+
+# Environment files (contains secrets)
+.env
+
+# OAuth tokens and credentials
+.gmail_token.json
+credentials.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python virtual environments
+venv/
+env/
+ENV/
+
+# State files (contains processed email IDs)
+.gmail_state.json
+
+# Logs
+*.log
+
+# Node.js (if using email-mcp)
+email-mcp/node_modules/
+email-mcp/package-lock.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
